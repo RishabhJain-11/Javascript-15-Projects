@@ -11,7 +11,7 @@ const clearBtn = document.querySelector('.clear-btn');
 
 
 
-
+ 
 // edit option
 let editElement;
 let editFlag = false;
