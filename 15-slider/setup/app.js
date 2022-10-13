@@ -22,7 +22,7 @@ function carousel() {
         nextBtn.style.display = "block";
     } else {
         nextBtn.style.display = "none";
-    }
+    } 
 
     if (counter > 0) {
         prevBtn.style.display = "block";
@@ -32,7 +32,7 @@ function carousel() {
 
     slides.forEach(function (slide) {
         slide.style.transform = `translateX(-${counter * 100}%)`;
-    });
+    }); 
 }
 
 prevBtn.style.display = "none";
